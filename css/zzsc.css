@@ -4,7 +4,7 @@ body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div{margin:0;paddin
 ul,ol{list-style-type:none;}
 select,input,img,select{vertical-align:middle;}
 input{  font-size:12px;}
-.clear{clear:both;}
+.clear{ clear:both;}
 
 /* 大转盘样式 */
 .banner{position: absolute; display:block;width:70%;margin-left: 120px;margin-top: -50px;}
