@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>jQuery手机移动端幸运大转盘抽奖代码</title>
+<title>幸运大转盘</title>
 
 <link href="css/zzsc.css" rel="stylesheet" type="text/css">
 <style>
@@ -55,7 +55,7 @@ var turnplate={
 
 $(document).ready(function(){
 	//动态添加大转盘的奖品与奖品区域背景颜色
-	turnplate.restaraunts = [ "再转一次","紫仓","再转一次 ","金丝熊","指定购买", "银狐","再转一次","布丁","返还一块","三线",];
+	turnplate.restaraunts = [ "半价紫仓","六折布丁","半价三线","返还一元","半价银狐 ","八折熊","六折雪球","半价布丁", "六折银狐","指定购买",];
 	turnplate.colors = ["#FFF4D6", "#FFFFFF", "#FFF4D6", "#FFFFFF","#FFF4D6", "#FFFFFF", "#FFF4D6", "#FFFFFF","#FFF4D6", "#FFFFFF"];
 	var rotateTimeOut = function (){
 		$('#wheelcanvas').rotate({
